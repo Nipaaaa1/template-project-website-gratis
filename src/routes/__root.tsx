@@ -1,9 +1,10 @@
-import { createRootRoute, Link, Outlet } from '@tanstack/react-router'
+import { createRootRoute, HeadContent, Link, Outlet } from '@tanstack/react-router'
 import { TanStackRouterDevtools } from '@tanstack/react-router-devtools'
 
 const RootLayout = () => {
   return (
     <>
+    <HeadContent />
     <div className="min-h-screen flex flex-col">
       <header className="border-b">
         <nav className="container mx-auto flex items-center justify-between p-4">

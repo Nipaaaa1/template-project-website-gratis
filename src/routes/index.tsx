@@ -16,17 +16,17 @@ function HomePage() {
       <div>
         <section className="container mx-auto px-4 py-24 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Hi, aku Nara 👋
+            Halo, saya Nara 👋
           </h1>
           <p className="text-gray-600 max-w-xl mx-auto">
-            Illustrator yang fokus ke character design, fantasy art,
-            dan visual storytelling.
+            Ilustrator lepas yang fokus pada desain karakter, seni fantasi,
+            dan penceritaan visual.
           </p>
         </section>
 
         <section className="container mx-auto px-4 py-16">
           <h2 className="text-2xl font-semibold mb-8 text-center">
-            Selected Works
+            Karya Pilihan
           </h2>
           <Gallery />
         </section>
@@ -34,16 +34,16 @@ function HomePage() {
         <section className="bg-gray-50 py-20">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-2xl font-semibold mb-4">
-              Let’s work together
+              Mari berkolaborasi
             </h2>
             <p className="text-gray-600 mb-6">
-              Tertarik kolaborasi atau mau commission?
+              Tertarik bekerja sama atau ingin memesan komisi?
             </p>
             <a
               href="mailto:hello@narawijaya.com"
               className="inline-block bg-black text-white px-6 py-3 rounded-lg hover:opacity-90"
             >
-              Contact Me
+              Hubungi Saya
             </a>
           </div>
         </section>

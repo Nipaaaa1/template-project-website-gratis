@@ -5,11 +5,12 @@ const RootLayout = () => {
   return (
     <>
     <HeadContent />
-    <div className="min-h-screen flex flex-col">
-      <header className="border-b">
+    <div className="min-h-screen flex flex-col relative">
+      <header className="sticky top-0 w-full shadow-2xl z-10 bg-white">
         <nav className="container mx-auto flex items-center justify-between p-4">
-          <Link to="/" className="text-xl font-bold">
-            Aruna Studio
+          <Link to="/" className="text-lg font-bold flex gap-2 items-center">
+            <img className="size-8 bg-gray-800 rounded-md" src="/favicon-32x32.png" alt="Nara Wijaya Logo" />
+            <span>Nara Wijaya</span>
           </Link>
 
           <div className="flex gap-4">
@@ -28,7 +29,7 @@ const RootLayout = () => {
       </main>
 
       <footer className="border-t py-6 text-center text-sm text-gray-500">
-        © {new Date().getFullYear()} Aruna Studio. All rights reserved.
+        © {new Date().getFullYear()} Nara Wijaya. All rights reserved.
       </footer>
     </div>
     <TanStackRouterDevtools />

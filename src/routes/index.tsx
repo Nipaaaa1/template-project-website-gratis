@@ -5,7 +5,7 @@ export const Route = createFileRoute('/')({
   component: HomePage,
   head: () => ({
     meta: [
-      { title: "Home" }
+      { title: "Home | Nara Wijaya" }
     ]
   })
 })
@@ -16,7 +16,7 @@ function HomePage() {
       <div>
         <section className="container mx-auto px-4 py-24 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Hi, aku Aruna 👋
+            Hi, aku Nara 👋
           </h1>
           <p className="text-gray-600 max-w-xl mx-auto">
             Illustrator yang fokus ke character design, fantasy art,
@@ -40,7 +40,7 @@ function HomePage() {
               Tertarik kolaborasi atau mau commission?
             </p>
             <a
-              href="mailto:hello@arunastudio.com"
+              href="mailto:hello@narawijaya.com"
               className="inline-block bg-black text-white px-6 py-3 rounded-lg hover:opacity-90"
             >
               Contact Me

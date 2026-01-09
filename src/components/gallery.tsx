@@ -1,8 +1,8 @@
 import { X } from 'lucide-react'
 import { useState } from 'react'
 
-const images = Array.from({ length: 6 }).map(
-  (_, i) => `https://picsum.photos/1000/1000?random=${i + 1}`
+const images = Array.from({ length: 5 }).map(
+  (_, i) => `/illust${i + 1}.webp`
 )
 
 const Gallery = () => {
@@ -26,7 +26,6 @@ const Gallery = () => {
         ))}
       </div>
 
-      {/* Modal */}
       {selectedImage && (
         <div
           className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 p-4"
@@ -46,7 +45,7 @@ const Gallery = () => {
             <img
               src={selectedImage}
               alt="Artwork preview"
-              className="w-full h-auto rounded-lg aspect-square"
+              className="size-max mx-auto max-h-96 rounded-lg"
             />
           </div>
         </div>

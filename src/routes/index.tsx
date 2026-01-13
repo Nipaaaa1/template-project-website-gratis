@@ -16,11 +16,10 @@ function HomePage() {
       <div>
         <section className="container mx-auto px-4 py-24 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Halo, saya Nara 👋
+            Nara Wijaya
           </h1>
           <p className="text-gray-600 max-w-xl mx-auto">
-            Ilustrator lepas yang fokus pada desain karakter, seni fantasi,
-            dan penceritaan visual.
+	    Ilustrator lepas dengan gaya vintage dan klasik untuk karya visual yang timeless dan berkarakter.
           </p>
         </section>
 

@@ -1,7 +1,7 @@
 import { X } from 'lucide-react'
 import { useEffect, useState } from 'react'
 
-const images = Array.from({ length: 5 }).map(
+const images = Array.from({ length: 10 }).map(
   (_, i) => `/illust${i + 1}.webp`
 )
 
@@ -28,12 +28,12 @@ const Gallery = () => {
 
   return (
     <>
-      <div className="grid md:grid-cols-2 gap-8">
+      <div className="masonry space-y-4">
         {images.map((src) => (
           <button
             key={src}
             onClick={() => setSelectedImage(src)}
-            className="overflow-hidden rounded-lg bg-gray-200 shadow-md hover:shadow-2xl transition-all ease-in-out"
+            className="size-full overflow-hidden rounded-lg bg-gray-200 shadow-md hover:shadow-2xl transition-all ease-in-out"
           >
             <img
               src={src}

@@ -1,1 +1,5 @@
 @import 'tailwindcss';
+
+.masonry {
+    columns: 20rem;
+}
